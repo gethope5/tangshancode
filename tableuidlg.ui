@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>tableUIDlg</class>
+ <widget class="QDialog" name="tableUIDlg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>639</width>
+    <height>351</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">font: 750 13pt &quot;微软雅黑&quot;;</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>601</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>显示控制</string>
+   </property>
+   <widget class="QCheckBox" name="chb1">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>135</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>站区名称</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chb2">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>30</y>
+      <width>135</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>跨距</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chb3">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>30</y>
+      <width>135</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>公里标</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chb4">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>30</y>
+      <width>135</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>工区名称</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chb13">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>150</y>
+      <width>135</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>支柱号</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chb16">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>150</y>
+      <width>135</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>拉出值标准</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chb14">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>150</y>
+      <width>135</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>曲线标志</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chb15">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>150</y>
+      <width>135</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>车间名称</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chb20">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>190</y>
+      <width>135</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>拉出值标准</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chb18">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>190</y>
+      <width>135</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>曲线标志</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chb17">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>190</y>
+      <width>135</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>支柱号</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chb19">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>190</y>
+      <width>135</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>车间名称</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chb8">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>70</y>
+      <width>135</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>工区名称</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chb7">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>70</y>
+      <width>135</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>公里标</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chb6">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>70</y>
+      <width>135</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>跨距</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chb5">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>70</y>
+      <width>135</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>站区名称</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chb12">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>110</y>
+      <width>135</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>工区名称</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chb11">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>110</y>
+      <width>135</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>公里标</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chb9">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>110</y>
+      <width>135</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>站区名称</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chb10">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>110</y>
+      <width>135</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>跨距</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="pbtnOk">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>280</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>确定</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="chbCancel">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>280</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>取消</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
